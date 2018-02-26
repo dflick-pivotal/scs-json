@@ -1,0 +1,8 @@
+endpoints:
+  sensitive: false
+management:
+  security:
+    enabled: false   
+security:
+  basic:
+    enabled: false   

@@ -1,0 +1,10 @@
+applications:
+- name: df-demo
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: df-demo.cfapps.io
+  services: [config-server]
+  stack: cflinuxfs2
+  path: target/demo-0.0.1-SNAPSHOT.jar
